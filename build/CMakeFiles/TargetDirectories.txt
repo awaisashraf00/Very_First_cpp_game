@@ -1,0 +1,3 @@
+/Users/sherazrajput/raylib_pkg/Template/build/CMakeFiles/raylib_pkg.dir
+/Users/sherazrajput/raylib_pkg/Template/build/CMakeFiles/edit_cache.dir
+/Users/sherazrajput/raylib_pkg/Template/build/CMakeFiles/rebuild_cache.dir
