@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o"
+  "CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o.d"
+  "CMakeFiles/raylib_pkg.dir/src/Position.cpp.o"
+  "CMakeFiles/raylib_pkg.dir/src/Position.cpp.o.d"
+  "CMakeFiles/raylib_pkg.dir/src/colors.cpp.o"
+  "CMakeFiles/raylib_pkg.dir/src/colors.cpp.o.d"
   "CMakeFiles/raylib_pkg.dir/src/main.cpp.o"
   "CMakeFiles/raylib_pkg.dir/src/main.cpp.o.d"
   "CMakeFiles/raylib_pkg.dir/src/tetris.cpp.o"

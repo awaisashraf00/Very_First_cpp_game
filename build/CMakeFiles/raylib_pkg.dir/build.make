@@ -100,20 +100,68 @@ CMakeFiles/raylib_pkg.dir/src/tetris.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/raylib_pkg.dir/src/tetris.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sherazrajput/raylib_pkg/Template/src/tetris.cpp -o CMakeFiles/raylib_pkg.dir/src/tetris.cpp.s
 
+CMakeFiles/raylib_pkg.dir/src/colors.cpp.o: CMakeFiles/raylib_pkg.dir/flags.make
+CMakeFiles/raylib_pkg.dir/src/colors.cpp.o: /Users/sherazrajput/raylib_pkg/Template/src/colors.cpp
+CMakeFiles/raylib_pkg.dir/src/colors.cpp.o: CMakeFiles/raylib_pkg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/raylib_pkg/Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/raylib_pkg.dir/src/colors.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_pkg.dir/src/colors.cpp.o -MF CMakeFiles/raylib_pkg.dir/src/colors.cpp.o.d -o CMakeFiles/raylib_pkg.dir/src/colors.cpp.o -c /Users/sherazrajput/raylib_pkg/Template/src/colors.cpp
+
+CMakeFiles/raylib_pkg.dir/src/colors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/raylib_pkg.dir/src/colors.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sherazrajput/raylib_pkg/Template/src/colors.cpp > CMakeFiles/raylib_pkg.dir/src/colors.cpp.i
+
+CMakeFiles/raylib_pkg.dir/src/colors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/raylib_pkg.dir/src/colors.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sherazrajput/raylib_pkg/Template/src/colors.cpp -o CMakeFiles/raylib_pkg.dir/src/colors.cpp.s
+
+CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o: CMakeFiles/raylib_pkg.dir/flags.make
+CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o: /Users/sherazrajput/raylib_pkg/Template/src/Blocks.cpp
+CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o: CMakeFiles/raylib_pkg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/raylib_pkg/Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o -MF CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o.d -o CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o -c /Users/sherazrajput/raylib_pkg/Template/src/Blocks.cpp
+
+CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sherazrajput/raylib_pkg/Template/src/Blocks.cpp > CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.i
+
+CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sherazrajput/raylib_pkg/Template/src/Blocks.cpp -o CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.s
+
+CMakeFiles/raylib_pkg.dir/src/Position.cpp.o: CMakeFiles/raylib_pkg.dir/flags.make
+CMakeFiles/raylib_pkg.dir/src/Position.cpp.o: /Users/sherazrajput/raylib_pkg/Template/src/Position.cpp
+CMakeFiles/raylib_pkg.dir/src/Position.cpp.o: CMakeFiles/raylib_pkg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/raylib_pkg/Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/raylib_pkg.dir/src/Position.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_pkg.dir/src/Position.cpp.o -MF CMakeFiles/raylib_pkg.dir/src/Position.cpp.o.d -o CMakeFiles/raylib_pkg.dir/src/Position.cpp.o -c /Users/sherazrajput/raylib_pkg/Template/src/Position.cpp
+
+CMakeFiles/raylib_pkg.dir/src/Position.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/raylib_pkg.dir/src/Position.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sherazrajput/raylib_pkg/Template/src/Position.cpp > CMakeFiles/raylib_pkg.dir/src/Position.cpp.i
+
+CMakeFiles/raylib_pkg.dir/src/Position.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/raylib_pkg.dir/src/Position.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sherazrajput/raylib_pkg/Template/src/Position.cpp -o CMakeFiles/raylib_pkg.dir/src/Position.cpp.s
+
 # Object files for target raylib_pkg
 raylib_pkg_OBJECTS = \
 "CMakeFiles/raylib_pkg.dir/src/main.cpp.o" \
-"CMakeFiles/raylib_pkg.dir/src/tetris.cpp.o"
+"CMakeFiles/raylib_pkg.dir/src/tetris.cpp.o" \
+"CMakeFiles/raylib_pkg.dir/src/colors.cpp.o" \
+"CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o" \
+"CMakeFiles/raylib_pkg.dir/src/Position.cpp.o"
 
 # External object files for target raylib_pkg
 raylib_pkg_EXTERNAL_OBJECTS =
 
 raylib_pkg: CMakeFiles/raylib_pkg.dir/src/main.cpp.o
 raylib_pkg: CMakeFiles/raylib_pkg.dir/src/tetris.cpp.o
+raylib_pkg: CMakeFiles/raylib_pkg.dir/src/colors.cpp.o
+raylib_pkg: CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o
+raylib_pkg: CMakeFiles/raylib_pkg.dir/src/Position.cpp.o
 raylib_pkg: CMakeFiles/raylib_pkg.dir/build.make
 raylib_pkg: /Users/sherazrajput/raylib_pkg/Template/lib/libraylib.a
 raylib_pkg: CMakeFiles/raylib_pkg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sherazrajput/raylib_pkg/Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable raylib_pkg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sherazrajput/raylib_pkg/Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable raylib_pkg"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raylib_pkg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

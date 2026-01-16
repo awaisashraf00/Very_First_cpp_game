@@ -129,6 +129,78 @@ raylib_pkg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/build
 .PHONY : raylib_pkg/fast
 
+src/Blocks.o: src/Blocks.cpp.o
+.PHONY : src/Blocks.o
+
+# target to build an object file
+src/Blocks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o
+.PHONY : src/Blocks.cpp.o
+
+src/Blocks.i: src/Blocks.cpp.i
+.PHONY : src/Blocks.i
+
+# target to preprocess a source file
+src/Blocks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.i
+.PHONY : src/Blocks.cpp.i
+
+src/Blocks.s: src/Blocks.cpp.s
+.PHONY : src/Blocks.s
+
+# target to generate assembly for a file
+src/Blocks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.s
+.PHONY : src/Blocks.cpp.s
+
+src/Position.o: src/Position.cpp.o
+.PHONY : src/Position.o
+
+# target to build an object file
+src/Position.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/Position.cpp.o
+.PHONY : src/Position.cpp.o
+
+src/Position.i: src/Position.cpp.i
+.PHONY : src/Position.i
+
+# target to preprocess a source file
+src/Position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/Position.cpp.i
+.PHONY : src/Position.cpp.i
+
+src/Position.s: src/Position.cpp.s
+.PHONY : src/Position.s
+
+# target to generate assembly for a file
+src/Position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/Position.cpp.s
+.PHONY : src/Position.cpp.s
+
+src/colors.o: src/colors.cpp.o
+.PHONY : src/colors.o
+
+# target to build an object file
+src/colors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/colors.cpp.o
+.PHONY : src/colors.cpp.o
+
+src/colors.i: src/colors.cpp.i
+.PHONY : src/colors.i
+
+# target to preprocess a source file
+src/colors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/colors.cpp.i
+.PHONY : src/colors.cpp.i
+
+src/colors.s: src/colors.cpp.s
+.PHONY : src/colors.s
+
+# target to generate assembly for a file
+src/colors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/colors.cpp.s
+.PHONY : src/colors.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,6 +258,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... raylib_pkg"
+	@echo "... src/Blocks.o"
+	@echo "... src/Blocks.i"
+	@echo "... src/Blocks.s"
+	@echo "... src/Position.o"
+	@echo "... src/Position.i"
+	@echo "... src/Position.s"
+	@echo "... src/colors.o"
+	@echo "... src/colors.i"
+	@echo "... src/colors.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

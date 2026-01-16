@@ -1,17 +1,19 @@
 #include "raylib.h"
 #include "tetris.h"
+#include "block.h"
 
 int main() 
 {
     InitWindow(600, 700, "My First raylib Game");
-    SetTargetFPS(60);
+    
 
     Area surface = Area();
-    surface.Print();
-
+    LBlock peice = LBlock();
+    peice.Draw();
     while(WindowShouldClose() == false) 
     {
         BeginDrawing();
+        
         EndDrawing();
     }
 
