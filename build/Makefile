@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/tetris.o: src/tetris.cpp.o
+.PHONY : src/tetris.o
+
+# target to build an object file
+src/tetris.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/tetris.cpp.o
+.PHONY : src/tetris.cpp.o
+
+src/tetris.i: src/tetris.cpp.i
+.PHONY : src/tetris.i
+
+# target to preprocess a source file
+src/tetris.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/tetris.cpp.i
+.PHONY : src/tetris.cpp.i
+
+src/tetris.s: src/tetris.cpp.s
+.PHONY : src/tetris.s
+
+# target to generate assembly for a file
+src/tetris.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_pkg.dir/build.make CMakeFiles/raylib_pkg.dir/src/tetris.cpp.s
+.PHONY : src/tetris.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/tetris.o"
+	@echo "... src/tetris.i"
+	@echo "... src/tetris.s"
 .PHONY : help
 
 

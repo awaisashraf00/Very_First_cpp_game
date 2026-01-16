@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/sherazrajput/raylib_pkg/Template/src/main.cpp" "CMakeFiles/raylib_pkg.dir/src/main.cpp.o" "gcc" "CMakeFiles/raylib_pkg.dir/src/main.cpp.o.d"
+  "/Users/sherazrajput/raylib_pkg/Template/src/tetris.cpp" "CMakeFiles/raylib_pkg.dir/src/tetris.cpp.o" "gcc" "CMakeFiles/raylib_pkg.dir/src/tetris.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
