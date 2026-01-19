@@ -89,7 +89,7 @@ void Game::Lock_Block(){
 
 void Game::Move_left(){
     current_block.Move(0,-1);
-    if (Is_outside()){
+    if (Is_outside()||box_fits()!=true){
         current_block.Move(0,1);
     }
 }
@@ -97,7 +97,7 @@ void Game::Move_left(){
 
 void Game::Move_right(){
     current_block.Move(0,1);
-    if (Is_outside()){
+    if (Is_outside()||box_fits()!=true){
         current_block.Move(0,-1);
     }
     
