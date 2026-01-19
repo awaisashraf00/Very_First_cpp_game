@@ -10,9 +10,11 @@ class Area{
         void Print();
         void Draw_rects();
         void filler();
+        bool Iscelloutside(int x,int y);
+        bool Iscellempty(int x,int y);
     private:
         int rows = 20;
         int columns = 10;
-        int cellSize = 45;
+        int cellSize = 30;
         vector<Color> colors;
 };

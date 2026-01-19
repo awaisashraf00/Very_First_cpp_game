@@ -9,10 +9,15 @@ class Block{
         Block();
         int id;
         map<int,vector<Position>> cell_address;
+        void Move(int x , int y);
+        vector<Position> New_coordinates();
         void Draw();
+        void rotate();
+        bool Is_rotatable();
+        int rotation{0};
     private:
         vector<Color> colors;
-        int cellSize = 45;
-        int rotation{0};
-    
+        int cellSize = 30;
+        int rows_away;
+        int columns_away;
 };

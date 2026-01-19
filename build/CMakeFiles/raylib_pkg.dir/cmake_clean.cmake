@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o"
   "CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o.d"
+  "CMakeFiles/raylib_pkg.dir/src/Game.cpp.o"
+  "CMakeFiles/raylib_pkg.dir/src/Game.cpp.o.d"
   "CMakeFiles/raylib_pkg.dir/src/Position.cpp.o"
   "CMakeFiles/raylib_pkg.dir/src/Position.cpp.o.d"
   "CMakeFiles/raylib_pkg.dir/src/colors.cpp.o"

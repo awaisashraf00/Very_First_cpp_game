@@ -1,7 +1,7 @@
 #include "color.h"
 
 const Color green = {47, 230, 23, 255};
-const Color darkGrey = {26, 31, 40, 100};
+const Color darkGrey = {0, 0, 0,255};
 const Color red = {232, 18, 18, 255};
 const Color orange = {226, 116, 17, 255};
 const Color yellow = {237, 234, 4, 255};
@@ -12,5 +12,5 @@ const Color lightBlue = {59, 85, 162, 255};
 const Color darkBlue = {44, 44, 127, 255};
 
 vector<Color> get_colors(){
-    return {green ,darkGrey ,red ,orange ,yellow ,purple ,cyan ,blue ,lightBlue ,darkBlue};
+    return {darkGrey, green,red ,orange ,yellow ,purple ,cyan ,blue ,lightBlue ,darkBlue};
 }

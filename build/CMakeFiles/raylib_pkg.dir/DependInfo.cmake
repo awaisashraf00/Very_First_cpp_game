@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/sherazrajput/raylib_pkg/Template/src/Blocks.cpp" "CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o" "gcc" "CMakeFiles/raylib_pkg.dir/src/Blocks.cpp.o.d"
+  "/Users/sherazrajput/raylib_pkg/Template/src/Game.cpp" "CMakeFiles/raylib_pkg.dir/src/Game.cpp.o" "gcc" "CMakeFiles/raylib_pkg.dir/src/Game.cpp.o.d"
   "/Users/sherazrajput/raylib_pkg/Template/src/Position.cpp" "CMakeFiles/raylib_pkg.dir/src/Position.cpp.o" "gcc" "CMakeFiles/raylib_pkg.dir/src/Position.cpp.o.d"
   "/Users/sherazrajput/raylib_pkg/Template/src/colors.cpp" "CMakeFiles/raylib_pkg.dir/src/colors.cpp.o" "gcc" "CMakeFiles/raylib_pkg.dir/src/colors.cpp.o.d"
   "/Users/sherazrajput/raylib_pkg/Template/src/main.cpp" "CMakeFiles/raylib_pkg.dir/src/main.cpp.o" "gcc" "CMakeFiles/raylib_pkg.dir/src/main.cpp.o.d"
