@@ -23,12 +23,20 @@ int main()
     while(WindowShouldClose() == false) 
     {
         BeginDrawing();
-        game.Get_Input();
-        if(EventTriggered(0.2)){
-            game.Move_down();
-        }
-        ClearBackground({255, 255, 255, 255});
-        game.Drawing();
+
+        if(game.Game_over()){
+            
+            game.Get_Input();
+
+            if(EventTriggered(0.2)){
+                game.Move_down();
+            }
+            ClearBackground({255, 255, 255, 255});
+            game.Drawing();
+        }else{
+            game.Drawing();
+            ClearBackground({232, 18, 18, 255});
+        }    
         EndDrawing();
     }
 

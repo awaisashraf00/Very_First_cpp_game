@@ -16,6 +16,7 @@ class Game{
         bool box_fits();
     public:
         void Move_down();
+        bool Game_over();
         Game();
         void Drawing();
         void Get_Input();

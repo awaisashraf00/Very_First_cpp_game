@@ -81,16 +81,20 @@ void Game::Lock_Block(){
     for(auto b:box){
         grid.area[b.y_pos][b.x_pos] = current_block.id;
     }
-    next_one = Next_Blocks();
-    current_block = next_one;
-    
-
+    // Check for completed rows from bottom to top
+    for(int i = 19; i >= 0; i--){
+        if(grid.Checker(i)){
+            // Row was cleared, check the same row again in case multiple rows cleared
+            i++; // Check the same row again since rows shifted down
+        }
+    }
+    current_block = Next_Blocks();
 }
 
 void Game::Move_left(){
-    current_block.Move(0,-1);
-    if (Is_outside()||box_fits()!=true){
-        current_block.Move(0,1);
+    current_block.Move(0, -1);
+    if (Is_outside() || !box_fits()){
+        current_block.Move(0, 1);
     }
 }
 
@@ -109,4 +113,12 @@ void Game::Move_down(){
         current_block.Move(-1,0);
         Lock_Block();
     }
+}
+
+bool Game::Game_over()
+{
+    for(int i{0};i<10;i++){
+        if (grid.area[0][i]!=0)return false;
+    }
+    return true;
 }

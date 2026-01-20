@@ -36,12 +36,12 @@ bool Block::Is_rotatable()
 }
 
 
-void Block::Move(int column,int row){
-    if(rows_away+column<=20){
-        rows_away += column;
+void Block::Move(int row,int column){
+    if(rows_away+row<=20){
+        rows_away += row;
     }
-    if(columns_away+row<=10){
-        columns_away += row;
+    if(columns_away+column<=10){
+        columns_away += column;
     }
 }
 
