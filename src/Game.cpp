@@ -88,7 +88,9 @@ void Game::Lock_Block(){
             i++; // Check the same row again since rows shifted down
         }
     }
-    current_block = Next_Blocks();
+    if(Game_over()){
+        current_block = Next_Blocks();
+    }
 }
 
 void Game::Move_left(){
